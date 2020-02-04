@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/gravel5",
+        "top": "block/gravel5",
+        "side": "block/gravel5"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/green_terracotta", "weight": 90 },
+            { "model": "block/green_terracotta", "x": 90, "z": 90, "weight": 90 },
+            { "model": "block/green_terracotta", "x": 180, "z": 180, "weight": 90 },
+            { "model": "block/green_terracotta", "x": 270, "z": 270, "weight": 90 },
+            { "model": "block/green_terracotta1", "weight": 5 },
+            { "model": "block/green_terracotta1", "x": 90, "z": 90, "weight": 5 },
+            { "model": "block/green_terracotta1", "x": 180, "z": 180, "weight": 5 },
+            { "model": "block/green_terracotta1", "x": 270, "z": 270, "weight": 5 },
+            { "model": "block/green_terracotta2", "weight": 5 },
+            { "model": "block/green_terracotta2", "x": 90, "z": 90, "weight": 5 },
+            { "model": "block/green_terracotta2", "x": 180, "z": 180, "weight": 5 },
+            { "model": "block/green_terracotta2", "x": 270, "z": 270, "weight": 5 }
+        ]
+    }
+}

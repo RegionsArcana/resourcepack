@@ -1,0 +1,21 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/composter_compost",
+		"inside": "block/composter_compost"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 2, 0, 2 ],
+			"to": [ 14, 7, 14 ],
+			"faces": {
+				"up": { "uv": [ 2, 2, 14, 14 ], "texture": "#inside", "cullface": "up" },
+				"north": { "uv": [ 2, 9, 14, 16 ], "texture": "#inside" },
+				"south": { "uv": [ 2, 9, 14, 16 ], "texture": "#inside" },
+				"west": { "uv": [ 2, 9, 14, 16 ], "texture": "#inside" },
+				"east": { "uv": [ 2, 9, 14, 16 ], "texture": "#inside" }
+			}
+		}
+	]
+}

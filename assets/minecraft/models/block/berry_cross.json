@@ -1,0 +1,73 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#cross",
+		"cross": "block/sweet_berry_bush_stage3",
+		"leaf": "block/sweet_berry_bush_stage0"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 0.8, 0, 8 ],
+			"to": [ 15.2, 16, 8.001 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 8, 0, 0.8 ],
+			"to": [ 8.001, 16, 15.2 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 3, -0.001, 7.5 ],
+			"to": [ 13, 0, 15.5 ],
+			"rotation": { "origin": [ 3, 0, 7.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 3, 8, 13, 16 ], "texture": "#leaf" },
+				"up": { "uv": [ 13, 16, 3, 8 ], "texture": "#leaf" }
+			}
+		},
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 3, 0, -0.5 ],
+			"to": [ 13, 0.001, 7.5 ],
+			"rotation": { "origin": [ 3, 0, 7.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 13, 16, 3, 8 ], "texture": "#leaf" },
+				"up": { "uv": [ 3, 8, 13, 16 ], "texture": "#leaf" }
+			}
+		},
+		{
+			"__comment": "PlaneX5",
+			"from": [ -0.5, 0, 3 ],
+			"to": [ 7.5, 0.001, 13 ],
+			"rotation": { "origin": [ 7.5, 0, 3 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 13, 16, 3, 8 ], "texture": "#leaf", "rotation": 90 },
+				"up": { "uv": [ 3, 8, 13, 16 ], "texture": "#leaf", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "PlaneX6",
+			"from": [ 7.5, -0.001, 3 ],
+			"to": [ 15.5, 0, 13 ],
+			"rotation": { "origin": [ 7.5, 0, 3 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 3, 8, 13, 16 ], "texture": "#leaf", "rotation": 90 },
+				"up": { "uv": [ 13, 16, 3, 8 ], "texture": "#leaf", "rotation": 270 }
+			}
+		}
+	]
+}

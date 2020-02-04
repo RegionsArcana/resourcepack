@@ -1,0 +1,33 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    },
+
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 10000001 },
+            "model": "item/diamond_greatsword"
+        },
+        {
+            "predicate": { "custom_model_data": 10000011 },
+            "model": "item/diamond_dagger"
+        },
+        {
+            "predicate": { "custom_model_data": 10000021 },
+            "model": "item/diamond_spear"
+        },
+        {
+            "predicate": { "custom_model_data": 10000031 },
+            "model": "item/glacius"
+        },
+        {
+            "predicate": { "custom_model_data": 10000041 },
+            "model": "item/bubble_blade"
+        },
+        {
+            "predicate": { "custom_model_data": 10000051 },
+            "model": "item/falchion"
+        }
+    ]
+}

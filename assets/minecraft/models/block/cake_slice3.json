@@ -1,0 +1,52 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+    "ambientocclusion": false,
+	"textures": {
+		"particle": "block/bread_side",
+		"side": "block/bread_side",
+		"inside": "block/bread_inner",
+		"end": "block/bread_end"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 7, 0, 9 ],
+			"to": [ 15, 8, 15 ],
+			"faces": {
+				"down": { "uv": [ 9, 8, 15, 16 ], "texture": "#side", "cullface": "up", "rotation": 270 },
+				"up": { "uv": [ 9, 8, 15, 16 ], "texture": "#side", "cullface": "up", "rotation": 90 },
+				"north": { "uv": [ 4, 8, 12, 16 ], "texture": "#inside", "cullface": "up" },
+				"south": { "uv": [ 4, 8, 12, 16 ], "texture": "#end", "cullface": "up" },
+				"west": { "uv": [ 9, 8, 15, 16 ], "texture": "#side", "cullface": "up" },
+				"east": { "uv": [ 1, 8, 7, 16 ], "texture": "#side", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 7, 1, 0 ],
+			"to": [ 15, 2, 8 ],
+			"faces": {
+				"down": { "uv": [ 4, 8, 12, 16 ], "texture": "#inside" },
+				"up": { "uv": [ 4, 8, 12, 16 ], "texture": "#inside" },
+				"north": { "uv": [ 1, 8, 2, 16 ], "texture": "#side", "rotation": 90 },
+				"south": { "uv": [ 14, 8, 15, 16 ], "texture": "#side", "rotation": 90 },
+				"west": { "uv": [ 1, 15, 9, 16 ], "texture": "#side" },
+				"east": { "uv": [ 1, 8, 9, 9 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 6, 0, 1 ],
+			"to": [ 14, 1, 9 ],
+			"rotation": { "origin": [ 6, 0, 1 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 4, 8, 12, 16 ], "texture": "#end" },
+				"up": { "uv": [ 4, 8, 12, 16 ], "texture": "#inside" },
+				"north": { "uv": [ 1, 8, 2, 16 ], "texture": "#side", "rotation": 90 },
+				"south": { "uv": [ 14, 8, 15, 16 ], "texture": "#side", "rotation": 90 },
+				"west": { "uv": [ 1, 15, 9, 16 ], "texture": "#side" },
+				"east": { "uv": [ 1, 8, 9, 9 ], "texture": "#side" }
+			}
+		}
+	]
+}

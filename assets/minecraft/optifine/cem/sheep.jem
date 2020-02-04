@@ -1,0 +1,12 @@
+{
+  "models": 
+  [
+    {
+      "model": "sheep_horn.jpm",
+      "part": "head", 
+	  "attach": true,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

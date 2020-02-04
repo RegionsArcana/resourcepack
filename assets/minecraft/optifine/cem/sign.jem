@@ -1,0 +1,19 @@
+{
+  "models": 
+  [
+    {
+      "model": "sign_board.jpm",
+      "part": "board", 
+	  "attach": false,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "sign_stick.jpm",
+      "part": "stick", 
+	  "attach": false,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 10000001 },
+            "model": "item/iron_greataxe"
+        },
+        {
+            "predicate": { "custom_model_data": 10000011 },
+            "model": "item/iron_halberd"
+        },
+        {
+            "predicate": { "custom_model_data": 10000021 },
+            "model": "item/iron_hammer"
+        },
+        {
+            "predicate": { "custom_model_data": 10000031 },
+            "model": "item/penance"
+        },
+        {
+            "predicate": { "custom_model_data": 10000041 },
+            "model": "item/thors_hammer"
+        },
+        {
+            "predicate": { "custom_model_data": 10000051 },
+            "model": "item/heavy_miners_axe"
+        }
+    ]
+}

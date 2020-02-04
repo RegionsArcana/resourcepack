@@ -1,0 +1,8 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "block/mossy_stone_bricks",
+		"top": "block/mossy_stone_bricks",
+		"bottom": "block/mossy_stone_bricks"
+    }
+}

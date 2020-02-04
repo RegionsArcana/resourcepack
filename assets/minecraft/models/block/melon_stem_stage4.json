@@ -1,0 +1,57 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/melon_stem_stage4",
+		"stem": "block/melon_stem_stage4",
+		"melon": "block/melon_side_stage6",
+		"top": "block/melon_top_stage6",
+		"down": "block/melon_top_stage6",
+		"bottom": "block/melon_stem_bottom"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX3",
+			"from": [ 8, -1, -14 ],
+			"to": [ 8.001, 31, 18 ],
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#stem" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+			}
+		},
+		{
+			"__comment": "Box3",
+			"from": [ 6, 8.5, 0 ],
+			"to": [ 10, 12.5, 4 ],
+			"rotation": { "origin": [ 6, 8.5, 0 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#top" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#melon" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#melon" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#melon" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#melon" }
+			}
+		},
+		{
+			"__comment": "PlaneX3",
+			"from": [ 8, -1.001, 0 ],
+			"to": [ 24, -0.9999996, 16 ],
+			"rotation": { "origin": [ 8, -1, 0 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 1, 16, 16 ], "texture": "#bottom", "rotation": 90 },
+				"up": { "uv": [ 16, 16, 0, 1 ], "texture": "#bottom", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "PlaneX3",
+			"from": [ -8, -1, 0 ],
+			"to": [ 8, -0.999, 16 ],
+			"rotation": { "origin": [ 8, -1, 0 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 1 ], "texture": "#bottom", "rotation": 90 },
+				"up": { "uv": [ 0, 1, 16, 16 ], "texture": "#bottom", "rotation": 270 }
+			}
+		}
+	]
+}

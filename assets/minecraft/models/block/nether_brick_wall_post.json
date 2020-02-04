@@ -1,0 +1,8 @@
+{
+    "parent": "block/template_wall_post",
+    "textures": {
+        "wall": "block/nether_bricks",
+		"top": "block/nether_bricks",
+		"bottom": "block/nether_bricks"
+    }
+}

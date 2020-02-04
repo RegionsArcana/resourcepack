@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stick"
+    },
+
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 10000001 },
+            "model": "item/heal_staff"
+        },
+        {
+            "predicate": { "custom_model_data": 10000011 },
+            "model": "item/green_heal_staff"
+        }
+    ]
+}

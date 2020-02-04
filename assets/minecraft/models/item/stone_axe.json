@@ -1,0 +1,21 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_axe"
+    },
+
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 10000001 },
+            "model": "item/stone_greataxe"
+        },
+        {
+            "predicate": { "custom_model_data": 10000011 },
+            "model": "item/stone_halberd"
+        },
+        {
+            "predicate": { "custom_model_data": 10000021 },
+            "model": "item/stone_hammer"
+        }
+    ]
+}

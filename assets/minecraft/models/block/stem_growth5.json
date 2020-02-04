@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#stem",
+		"stem": "block/pumpkin_stem_stage5",
+		"pumpkin": "block/pumpkin_side_stage6",
+		"top": "block/pumpkin_top_stage6",
+		"down": "block/pumpkin_bottom_stage6"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX3",
+			"from": [ 8, -1, -16 ],
+			"to": [ 8.001, 31, 16 ],
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#stem" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+			}
+		}
+	]
+}

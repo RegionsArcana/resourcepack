@@ -1,0 +1,12 @@
+{
+  "models": 
+  [
+    {
+      "model": "haybale_head.jpm",
+      "part": "left", 
+	  "attach": true,
+      "translate": [8, -0.1, -8],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

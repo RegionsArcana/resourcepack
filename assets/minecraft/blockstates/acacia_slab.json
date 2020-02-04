@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/acacia_slab", "weight": 20 },
+			{ "model": "block/acacia_slab1", "weight": 20 },
+			{ "model": "block/acacia_slab2", "weight": 20 },
+			{ "model": "block/acacia_slab0", "weight": 20 }
+		],
+        "type=top": [
+			{ "model": "block/acacia_slab_top", "weight": 20 },
+			{ "model": "block/acacia_slab_top1", "weight": 20 },
+			{ "model": "block/acacia_slab_top2", "weight": 20 },
+			{ "model": "block/acacia_slab_top0", "weight": 20 }
+		],	
+        "type=double": [
+			{ "model": "block/carved_acacia" }
+		]
+    }
+}

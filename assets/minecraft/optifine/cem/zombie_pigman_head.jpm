@@ -1,0 +1,51 @@
+{
+  "comment": "Made by Mickey Joe Alpha",
+  "createdWith": "Cubik Studio",
+  "textureSize": [64,64],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-4.0,-4.0,4.0],
+      "boxes": [
+        {
+          "coordinates": [-8.0,-8.0,0.0,8.0,8.0,8.0],
+          "uvDown": [16,0,23,8],
+          "uvUp": [8,0,15,8],
+          "uvNorth": [8,8,16,16],
+          "uvSouth": [24,8,32,16],
+          "uvWest": [16,8,23,16],
+          "uvEast": [0,8,7,16]
+        }
+      ]
+    },
+    {
+      "id": "Cube2",
+      "translate": [-6.0,-5.0,2.0],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-3.0,0.0,4.0,3.0,2.0],
+          "uvDown": [30,0,34,2],
+          "uvUp": [26,0,30,2],
+          "uvNorth": [26,2,30,5],
+          "uvWest": [30,2,32,5],
+          "uvEast": [24,2,26,5]
+        }
+      ]
+    },
+    {
+      "id": "Cube3",
+      "translate": [-1.25,-10.25,6.0],
+      "rotate": [0.0,0.0,337.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-3.0,0.0,3.0,3.0,1.0],
+          "uvDown": [36,1,39,2],
+          "uvUp": [36,0,39,1],
+          "uvNorth": [36,2,39,5],
+          "uvSouth": [36,5,39,8],
+          "uvWest": [35,2,36,5]
+        }
+      ]
+    }
+  ]
+}

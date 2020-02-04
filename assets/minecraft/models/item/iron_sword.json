@@ -1,0 +1,25 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 10000001 },
+            "model": "item/iron_greatsword"
+        },
+        {
+            "predicate": { "custom_model_data": 10000011 },
+            "model": "item/iron_dagger"
+        },
+        {
+            "predicate": { "custom_model_data": 10000021 },
+            "model": "item/iron_spear"
+        },
+        {
+            "predicate": { "custom_model_data": 10000031 },
+            "model": "item/noblemans_spear"
+        }
+    ]
+}

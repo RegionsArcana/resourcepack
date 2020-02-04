@@ -1,0 +1,18 @@
+{
+  "comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.9.480 Beta",
+  "texture": "empty",
+  "textureSize": [64,64],
+  "submodels": [
+    {
+      "id": "e0_PlaneX2",
+      "boxes": [
+        {
+          "coordinates": [-0.001,-1.0,0.0,0.001,1.0,1.0],
+          "uvWest": [0,60,1,61],
+          "uvEast": [0,60,1,61]
+        }
+      ]
+    }
+  ]
+}
